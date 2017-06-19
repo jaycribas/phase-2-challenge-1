@@ -44,7 +44,7 @@ weekday(new Date(2017, 5, 15)) // returns "Thu"
 
 - [ ] __10:__ A test using expected/valid inputs for the `weekday()` function is written in `tests.js`.
 - [ ] __10:__ A test using unexpected/invalid inputs for the `weekday()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `weekday()` is defined in `functions.js`.
+- [x] __30:__ Correct implementation of the `weekday()` is defined in `functions.js`.
 - [ ] __10:__ Tests for `weekday()` are passing.
 
 ### Get a snippet from text
@@ -62,7 +62,7 @@ snippet("Hello, world!", 20) // => "Hello, world!"
 
 - [ ] __10:__ A test using expected/valid inputs for the `snippet()` function is written in `tests.js`.
 - [ ] __10:__ A test using unexpected/invalid inputs for the `snippet()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `snippet()` is defined in `functions.js`.
+- [x] __30:__ Correct implementation of the `snippet()` is defined in `functions.js`.
 - [ ] __10:__ Tests for `snippet()` are passing.
 
 ### Number of properties
@@ -86,7 +86,7 @@ numProps({}) // => 0
 
 - [ ] __10:__ A test using expected/valid inputs for the `numProps()` function is written in `tests.js`.
 - [ ] __10:__ A test using unexpected/invalid inputs for the `numProps()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `numProps()` is defined in `functions.js`.
+- [x] __30:__ Correct implementation of the `numProps()` is defined in `functions.js`.
 - [ ] __10:__ Tests for `numProps()` are passing.
 
 ### Filter between
@@ -106,7 +106,7 @@ filterBetween(arr, 5, 10) // => [5, 6, 7]
 
 - [ ] __10:__ A test using expected/valid inputs for the `filterBetween()` function is written in `tests.js`.
 - [ ] __10:__ A test using unexpected/invalid inputs for the `filterBetween()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `filterBetween()` is defined in `functions.js`.
+- [x] __30:__ Correct implementation of the `filterBetween()` is defined in `functions.js`.
 - [ ] __10:__ Tests for `filterBetween()` are passing.
 
 ## Part 2: Extract data from JSON file
