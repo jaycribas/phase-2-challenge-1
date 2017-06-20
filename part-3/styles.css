@@ -1,12 +1,22 @@
+html,body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
 }
 
 .container {
+  align-items: stretch;
+  display: flex;
+  height: 90%;
+  justify-content: center;
   width: 80%;
   margin: auto;
 }
+
+/* * *  H E A D E R  * * */
 
 header {
   color: white;
@@ -23,15 +33,16 @@ header {
   margin-top: 15px;
 }
 
+/* * *  S I D E B A R  * * */
+
 aside {
+  align-self: stretch;
   border-width: 0 1px;
   border-style: solid;
   border-color: mediumturquoise;
-  float: left;
   height: 100%;
   padding-left: 10px;
-  position: absolute;
-  width: 18%;
+  width: 22%;
 }
 
 h4 {
@@ -53,4 +64,35 @@ li {
 a {
   color: black;
   text-decoration: none;
+}
+
+/* * *  M A I N  C O N T E N T  * * */
+
+main {
+  overflow: scroll;
+  padding: 3% 0 3% 5%;
+  width: 78%;
+}
+
+.main-header {
+  font-size: 3em;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+table {
+  border-spacing: 0 30px;
+  width: 100%;
+}
+
+th {
+  border-bottom: 1px solid #a9eef0;
+  font-size: 1.5em;
+  font-weight: normal;
+  text-align: left;
+  font-style: italic;
+}
+
+button.add {
+  float: right;
 }
