@@ -181,9 +181,9 @@ Design a layout to match the following wireframe:
 
 ### Requirements
 
-- [ ] __10:__ All files are stored under the `part-3/` folder
+- [x] __10:__ All files are stored under the `part-3/` folder
 - [ ] __20:__ No third party CSS libraries are used (all code must be written from scratch)
-- [ ] __10:__ HTML and CSS are separated into their own files.
+- [x] __10:__ HTML and CSS are separated into their own files.
 - [ ] __20:__ Page has a full-width header with the site title "Grocer" and a button "Cart"
 - [ ] __10:__ Site title "Grocer" is aligned to the left
 - [ ] __10:__ "Cart" button is aligned to the right
