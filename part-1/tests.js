@@ -22,3 +22,18 @@ describe('Get a snippet from text', () => {
     expect(snippet('What the what?', 'meow')).to.deep.equal('error')
   })
 })
+
+describe('Number of properties', () => {
+  it('uses expected/valid inputs', () => {
+    let friend = {
+      name: 'Dominique',
+      age: 30,
+      phone: '555-555-5555'
+    }
+    expect(numProps(friend)).to.deep.equal(3)
+  })
+
+  it('uses unexpected/invalid inputs', () => {
+    expect(numProps('What the what?')).to.deep.equal('error')
+  })
+})
