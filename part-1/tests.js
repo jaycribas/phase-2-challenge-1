@@ -6,4 +6,9 @@ describe('Show a weekday', () => {
     let date = new Date(2017, 6, 23)
     expect(weekday(date)).to.deep.equal('Sun')
   })
+
+  it('uses unexpected/invalid inputs', () => {
+    let date = new Date(2017, 'June', 19)
+    expect(weekday(date)).to.be.undefined
+  })
 })
