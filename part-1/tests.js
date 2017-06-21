@@ -37,3 +37,15 @@ describe('Number of properties', () => {
     expect(numProps('What the what?')).to.deep.equal('error')
   })
 })
+
+describe('Filter between', () => {
+  let arr = [1, 2, 3, 4, 5, 6, 7]
+
+  it('uses expected/valid inputs', () => {
+    expect(filterBetween(arr, 3, 6)).to.deep.equal([3, 4, 5, 6])
+  })
+
+  it('uses unexpected/invalid inputs', () => {
+    expect(filterBetween(arr, 'blerg!', 'Liz Lemon')).to.deep.equal('error')
+  })
+})

@@ -14,6 +14,11 @@ const snippet = (string, maxlength) => {
 const numProps = obj => typeof obj === 'object' ? Object.keys(obj).length : 'error'
 
 // filter() method creates a new array with all elements that pass the test implemented by the provided function
-const filterBetween = (array, min, max) => array.filter(num => num >= min && num <= max)
+const filterBetween = (array, min, max) => {
+  if (Array.isArray(array) && Number.isInteger(min) && Number.isInteger(max)) {
+    return array.filter(num => num >= min && num <= max)
+  }
+  return 'error'
+}
 
 module.exports = { weekday, snippet, numProps, filterBetween }
