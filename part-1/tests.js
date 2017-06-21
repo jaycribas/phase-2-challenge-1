@@ -12,3 +12,13 @@ describe('Show a weekday', () => {
     expect(weekday(date)).to.be.undefined
   })
 })
+
+describe('Get a snippet from text', () => {
+  it('uses expected/valid inputs', () => {
+    expect(snippet('For the following exercises,', 10)).to.deep.equal('For the fo…')
+  })
+
+  it('uses unexpected/invalid inputs', () => {
+    expect(snippet('What the what?', 'meow')).to.deep.equal('error')
+  })
+})
