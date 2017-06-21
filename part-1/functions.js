@@ -11,7 +11,7 @@ const snippet = (string, maxlength) => {
 }
 
 // Object.keys() method returns an array of an object's properties
-const numProps = obj => Object.keys(obj).length
+const numProps = obj => typeof obj === 'object' ? Object.keys(obj).length : 'error'
 
 // filter() method creates a new array with all elements that pass the test implemented by the provided function
 const filterBetween = (array, min, max) => array.filter(num => num >= min && num <= max)
